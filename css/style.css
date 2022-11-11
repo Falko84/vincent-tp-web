@@ -143,8 +143,21 @@ a {
     width: 15%;
   }
 
-  @media screen and (min-width: 80rem) {
-    .container {
-      margin: 1em 2em;
+  @media screen and (max-width: 600px) {
+    .screen__content__button {
+      width: 80%;
+      position: fixed;
+      bottom: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #text {
+      font-size: 2rem;
+    }
+
+    #header {
+      font-size: 3rem;
     }
   }
+  
