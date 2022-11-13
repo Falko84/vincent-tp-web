@@ -143,7 +143,7 @@ a {
     width: 15%;
   }
 
-  @media screen  {
+  @media screen and (max-width: 600px) {
     .screen__content__button {
       width: 100%;
       position: fixed;
@@ -154,13 +154,10 @@ a {
 
     #text {
       font-size: 2rem;
-      display: flex;
-      position: fixed;
     }
 
     #header {
       font-size: 3rem;
-      display: flex;
     }
   }
   
