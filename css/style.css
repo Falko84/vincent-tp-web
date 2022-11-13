@@ -154,10 +154,13 @@ a {
 
     #text {
       font-size: 2rem;
+      display: flex;
+      position: fixed;
     }
 
     #header {
       font-size: 3rem;
+      display: flex;
     }
   }
   
